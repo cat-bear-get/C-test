@@ -24,10 +24,12 @@ public: //公共权限
         cout << "姓名:" << name << endl << "学号:" << number << endl;
     }
 
+    //设置名字
     void set_name(string Name) {
         name = Name;
     }
 
+    //设置学号
     void set_number(int Number) {
         number = Number;
     }
