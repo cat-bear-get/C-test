@@ -1,3 +1,4 @@
+/*
 //
 // Created by jingwei on 2021/8/15.
 //
@@ -18,3 +19,4 @@ int main() {
     int a = 100;
     showValue(a);
 }
+*/
