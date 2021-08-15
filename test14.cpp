@@ -35,10 +35,10 @@ public:
     }
 
     void Compared(int H, int L, int W) {
-        if (L==m_L&&H==m_H&&W==m_W){
-            cout<<"they are same!!!!"<<endl;
-        } else{
-            cout<<"they are different!!!!"<<endl;
+        if (L == m_L && H == m_H && W == m_W) {
+            cout << "they are same!!!!" << endl;
+        } else {
+            cout << "they are different!!!!" << endl;
         }
     }
 };
@@ -52,7 +52,7 @@ int main() {
     cout << "area:" << C1.area << endl;
     C1.get_volume();
     cout << "volume:" << C1.volume << endl;
-    int H,L,W;
-    cin>>H>>L>>W;
-    C1.Compared(H,L,W);
+    int H, L, W;
+    cin >> H >> L >> W;
+    C1.Compared(H, L, W);
 }
