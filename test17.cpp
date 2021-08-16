@@ -31,7 +31,7 @@ public:
     }
 
     //拷贝构造函数
-    Person(const Person &p) {
+    Person(const Person &p) {       //加const防止修改本体数据
         cout << "拷贝构造函数" << endl;
         age = p.age;
     }
